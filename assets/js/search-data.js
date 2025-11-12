@@ -445,11 +445,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-our-paper-got-accepoted-at-north-american-power-symposium-2025",
+          title: 'Our paper got accepoted at North American Power Symposium 2025.',
           description: "",
-          section: "News",},{id: "news-our-paper-got-accepted-to-the-ieee-t-amp-amp-d-conference-in-chicago",
-          title: 'Our paper got accepted to the IEEE T&amp;amp;amp;D Conference in Chicago.',
+          section: "News",},{id: "news-our-paper-got-accepted-to-the-2026-ieee-t-amp-amp-d-conference-in-chicago",
+          title: 'Our paper got accepted to the 2026 IEEE T&amp;amp;amp;D Conference in Chicago.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
