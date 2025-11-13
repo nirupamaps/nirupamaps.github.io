@@ -76,7 +76,8 @@
       "studyType": "Bachelor of Technology",
       "startDate": "2018-08",
       "endDate": "2022-05",
-      "score": "7.56/10.00"
+      "score": "7.56/10.00",
+      "courses": ["Advisor: Prof. Sangeeta Modi"]
     }
   ],
   "awards": [
