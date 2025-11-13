@@ -49,6 +49,28 @@
     {
       "institution": "Arizona State University",
       "location": "Tempe, Arizona",
+      "url": "https://www.asu.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2024-07",
+      "endDate": "Present",
+      "score": "3.78/4.00",
+      "courses": ["Theory of Relativity"]
+    },
+    {
+      "institution": "Arizona State University",
+      "location": "Tempe, Arizona",
+      "url": "https://www.asu.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2022-08",
+      "endDate": "2024-06",
+      "score": "3.78/4.00",
+      "courses": ["Theory of Relativity"]
+    },
+    {
+      "institution": "Arizona State University",
+      "location": "Tempe, Arizona",
       "url": "https://www.uzh.ch/",
       "area": "Electrical Engineering",
       "studyType": "Doctor of Philosophy",
