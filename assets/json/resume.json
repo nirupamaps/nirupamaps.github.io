@@ -65,19 +65,18 @@
       "studyType": "Master of Science",
       "startDate": "2022-08",
       "endDate": "2024-06",
-      "score": "3.78/4.00",
+      "score": "3.71/4.00",
       "courses": ["Theory of Relativity"]
     },
     {
-      "institution": "Arizona State University",
-      "location": "Tempe, Arizona",
-      "url": "https://www.uzh.ch/",
-      "area": "Electrical Engineering",
-      "studyType": "Doctor of Philosophy",
-      "startDate": "2024-07-01",
-      "endDate": "Present",
-      "score": "3.78/4.00",
-      "courses": ["Theory of Relativity"]
+      "institution": "P.E.S University",
+      "location": "Bengaluru, India",
+      "url": "https://www.pes.edu/",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2018-08",
+      "endDate": "2022-05",
+      "score": "7.56/10.00"
     }
   ],
   "awards": [
