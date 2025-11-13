@@ -100,18 +100,18 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "A Comprehensive Review of Microgrids, Control Strategies, and Microgrid Protection Schemes",
+      "publisher": "The Electrochemical Society",
+      "releaseDate": "2022-10-03",
+      "url": "https://iopscience.iop.org/article/10.1149/10701.13345ecst",
+      "summary": "For the greater part of a century, the world has moved to sustainable energy production, with increased dependence on renewable energy resources to meet growing energy demand. Reserves of conventional sources are rapidly depleting, with an environmental crisis due to profligate consumption. Distributed generation through renewable sources and microgrids have proved as sustainable alternatives. Microgrids provide versatile topologies with dispersed generation and provision for expansion. However, the nonconventionality of microgrids pose challenges and the conventional control and protection strategy have proven unsuitable. This paper attempts to be a review of microgrids, challenges, and existing protection schemes. The first segment of this paper presents the definition and overview of the microgrid market scenario. The next segment discusses microgrid classification and control strategies, following which challenges, and protection schemes are reviewed. The paper concludes with an overview of relay coordination, optimization algorithms, and an outline of few international microgrid standards and codes."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Pole-to-Pole Fault Detection Algorithm Using Energy Slope for Microgrids",
+      "publisher": "IEEE",
+      "releaseDate": "2022-04-13",
+      "url": "https://ieeexplore.ieee.org/document/9752299",
+      "summary": "Recent global traction towards meeting energy demand through renewable resources due to ecological, resource depletion, and fiscal concerns has led to increased development in distributed energy generation. Microgrids have proven as promising solutions for energy generation due to their flexible yet robust topology with various control strategies. The main challenges with microgrids are associated with bidirectional flow of power and renewable injection at various points of the microgrid. Most protection schemes used in conventional utility grids are less effective against faults and disturbances in microgrids. Further, the inherent intermittency of renewable resources can make microgrid protection challenging. The work in this paper comprises of literature review of microgrids, fault analysis, and protection schemes employed for power systems. This paper aims to cover the simulation and fault analysis of DC (Direct Current) Pole-to-Pole faults in an islanded radial DC solar-based microgrid of two sources and three loads. Further, a fault detection algorithm using the energy slope values is proposed, implemented, and analyzed with respect to the system under consideration."
     },
     {
       "name": "Comparative Analysis of Traditional and Soft Computing Techniques of MPPT in PV Applications",
