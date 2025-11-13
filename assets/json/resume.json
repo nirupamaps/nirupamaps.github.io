@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Nirupama Pudukkarai Srinivas",
+    "label": "Ph.D. Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "npudukka@asu.edu",
+    "phone": "",
+    "url": "https://nirupamaps.github.io",
+    "summary": "Electrical Engineering Ph.D. Student at Arizona State University",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "Arizona State University",
+      "postalCode": "AZ 85281",
+      "city": "Tempe",
       "countryCode": "US",
-      "region": "California"
+      "region": "Arizona"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "foodisspicy",
+        "url": "https://twitter.com/foodisspicy"
       }
     ]
   },
