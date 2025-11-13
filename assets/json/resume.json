@@ -82,55 +82,20 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "Cirrus Logic Women Leaders in STEM",
+      "date": "2024-06",
+      "awarder": "Cirrus Logic",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "Awarded to recognize women who have demonstrated leadership and contributions in the fields of Science, Technology, Engineering, and Mathematics (STEM)."
     }
   ],
-  "certificates": [
+ "certificates": [
     {
       "name": "Machine Learning",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
@@ -149,11 +114,11 @@
       "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Comparative Analysis of Traditional and Soft Computing Techniques of MPPT in PV Applications",
+      "publisher": "IEEE",
+      "releaseDate": "2021-11-02",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9573876/",
+      "summary": "Rising global population has led to a surge in energy demand which has been met by conventional sources of energy such as coal and natural gas hitherto, which has led to a stark depletion of these resources and they are environmentally extravagant. Renewable energy poses as an attractive alternative with sources like solar energy being ubiquitous. Solar systems, however, have low conversion efficiency which causes a low power output. This is countered by using a Maximum Power Point Tracker (MPPT) which employs selected algorithms to operate the photovoltaic (PV) array (Voc=36.3V, Isc=7.84A per module) to extract maximum power. This paper presents a relative analysis of the Perturb & Observe (P&O) method and soft computing-based Fuzzy logic algorithms with five and seven linguistic variables under changing conditions of irradiation and temperature. In addition to this, the results of different membership functions employed in the fuzzy logic algorithm are further analyzed and presented."
     }
   ],
   "skills": [
