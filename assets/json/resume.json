@@ -102,6 +102,7 @@
     {
       "name": "A Comprehensive Review of Microgrids, Control Strategies, and Microgrid Protection Schemes",
       "publisher": "The Electrochemical Society",
+      "attributes": ["Co-author: Sangeeta Modi"],
       "releaseDate": "2022-10-03",
       "url": "https://iopscience.iop.org/article/10.1149/10701.13345ecst",
       "summary": "For the greater part of a century, the world has moved to sustainable energy production, with increased dependence on renewable energy resources to meet growing energy demand. Reserves of conventional sources are rapidly depleting, with an environmental crisis due to profligate consumption. Distributed generation through renewable sources and microgrids have proved as sustainable alternatives. Microgrids provide versatile topologies with dispersed generation and provision for expansion. However, the nonconventionality of microgrids pose challenges and the conventional control and protection strategy have proven unsuitable. This paper attempts to be a review of microgrids, challenges, and existing protection schemes. The first segment of this paper presents the definition and overview of the microgrid market scenario. The next segment discusses microgrid classification and control strategies, following which challenges, and protection schemes are reviewed. The paper concludes with an overview of relay coordination, optimization algorithms, and an outline of few international microgrid standards and codes."
