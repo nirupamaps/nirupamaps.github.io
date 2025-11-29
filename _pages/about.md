@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Electrical Engineering PhD student at Arizona State University working with [Prof. Mojdeh Khorsand ](https://labs.engineering.asu.edu/khorsand/). 
+Electrical Engineering PhD student at Arizona State University working with [Prof. Mojdeh Khorsand ](https://labs.engineering.asu.edu/khorsand/).
 
-Interested in load forecasting, energy markets, optimization and ML for power systems, demand response, power systems operation and planning, and distribution networks. 
-
-
+Interested in load forecasting, energy markets, optimization and ML for power systems, demand response, power systems operation and planning, and distribution networks.

@@ -55,7 +55,7 @@
       "startDate": "2024-07",
       "endDate": "Present",
       "score": "3.78/4.00",
-      "courses": ["Advisor: Prof. Mojdeh Khorsand"]      
+      "courses": ["Advisor: Prof. Mojdeh Khorsand"]
     },
     {
       "institution": "Arizona State University",
@@ -89,7 +89,7 @@
       "summary": "Awarded to recognize women who have demonstrated leadership and contributions in the fields of Science, Technology, Engineering, and Mathematics (STEM)."
     }
   ],
- "certificates": [
+  "certificates": [
     {
       "name": "Machine Learning",
       "date": "2018-01-01",

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper got accepoted at North American Power Symposium 2025.
+Our paper got accepted at North American Power Symposium 2025.
