@@ -5,10 +5,11 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {% assign highlighted_first = site.first_name | replace: 'Niru', '<span class="text-primary">Niru</span>' %}
+        <span class="font-weight-bold">{{ highlighted_first }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        {{ site.title | replace: 'Niru', '<span class="text-primary">Niru</span>' }}
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
@@ -48,6 +49,8 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <hr>
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
@@ -55,6 +58,8 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+
+    <hr>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
