@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: npudukka[at]asu[dot]edu
 
 profile:
   align: right
@@ -27,8 +27,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Electrical Engineering PhD student at Arizona State University working with [Prof. Mojdeh Khorsand ](https://labs.engineering.asu.edu/khorsand/). 
+## About
 
-Interested in load forecasting, energy markets, optimization and ML for power systems, demand response, power systems operation and planning, and distribution networks. 
+Electrical Engineering PhD student at Arizona State University working with [Prof. Mojdeh Khorsand](https://labs.engineering.asu.edu/khorsand/).
 
+<hr />
 
+## Research Interests
+
+- Load forecasting and energy markets
+- Optimization and ML for power systems
+- Demand response and grid flexibility
+- Power system operation and planning
+- Distribution networks and DER integration
+
+<hr />
+
+## Contact
+
+- Email: `npudukka[at]asu[dot]edu`
+- Office: Engineering Research Center 508, Arizona State University
+- Location: Tempe, AZ 85281
+
+<hr />
