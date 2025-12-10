@@ -100,6 +100,13 @@
   ],
   "publications": [
     {
+      "name": "A Data Mining Approach for Behind the Meter Residential Load Composition",
+      "publisher": "IEEE",
+      "releaseDate": "2022-10-03",
+      "url": "https://iopscience.iop.org/article/10.1149/10701.13345ecst",
+      "summary": "Authors: Nirupama Pudukkarai Srinivas, Sangeeta Modi \nThis paper reviews the evolution of microgrids, their control strategies, and protection schemes, emphasizing challenges in adapting conventional methods. It also covers optimization algorithms, relay coordination, and key international standards for microgrid operation."
+    },
+    {
       "name": "A Comprehensive Review of Microgrids, Control Strategies, and Microgrid Protection Schemes",
       "publisher": "The Electrochemical Society",
       "releaseDate": "2022-10-03",
