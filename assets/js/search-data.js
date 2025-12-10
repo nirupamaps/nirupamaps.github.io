@@ -9,12 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-nirupama-39-s-calendar",
-          title: "Nirupama&#39;s Calendar",
+  },{id: "nav-calendar",
+          title: "calendar",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/calendar/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-travel",
+          title: "travel",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/travel/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -29,13 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-bookshelf",
-          title: "bookshelf",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/books/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
