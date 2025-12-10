@@ -45,18 +45,23 @@ ninja.data = [{
             },},{id: "news-our-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-accepted-at-north-american-power-symposium-2025",
           title: 'Our paper, “A Data Mining Approach for Load Composition Analysis in Residential Units”...',
           description: "",
-          section: "News",},{id: "news-hicss-26-acceptance",
-          title: 'Hicss_26_acceptance',
+          section: "News",},{id: "news-our-paper-an-appliance-agnostic-mode-identification-framework-via-dynamic-programming-least-squares-and-piecewise-regression-for-non-intrusive-load-monitoring-has-been-accepted-for-presentation-at-the-59th-hawaii-international-conference-on-system-sciences-hicss",
+          title: 'Our paper, “An Appliance-Agnostic Mode Identification Framework via Dynamic Programming Least Squares and...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/HICSS_26_Acceptance/";
-            },},{id: "news-our-paper-a-day-ahead-bidding-framework-for-renewable-fed-distributed-energy-resource-aggregators-has-been-accepted-for-presentation-the-2026-transmission-amp-amp-distribution-conference-amp-amp-exposition-4-7-may-2026-chicago-il-usa",
+          section: "News",},{id: "news-our-paper-a-day-ahead-bidding-framework-for-renewable-fed-distributed-energy-resource-aggregators-has-been-accepted-for-presentation-the-2026-transmission-amp-amp-distribution-conference-amp-amp-exposition-4-7-may-2026-chicago-il-usa",
           title: 'Our paper, “A Day-Ahead Bidding Framework for Renewable-Fed Distributed Energy Resource Aggregators” has...',
           description: "",
           section: "News",},{id: "news-our-naps-2025-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-published-on-ieee-xplore",
           title: 'Our NAPS 2025 paper, “A Data Mining Approach for Load Composition Analysis in...',
           description: "",
           section: "News",},{
+        id: 'social-organization',
+        title: 'Organization',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
