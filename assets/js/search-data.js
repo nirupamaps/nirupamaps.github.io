@@ -47,14 +47,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-our-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-got-accepted-at-north-american-power-symposium-2025",
-          title: 'Our paper, “A Data Mining Approach for Load Composition Analysis in Residential Units”...',
+            },},{id: "news-our-paper-got-accepted-at-north-american-power-symposium-2025",
+          title: 'Our paper got accepted at North American Power Symposium 2025.',
           description: "",
           section: "News",},{id: "news-our-paper-got-accepted-to-the-2026-ieee-t-amp-amp-d-conference-in-chicago",
           title: 'Our paper got accepted to the 2026 IEEE T&amp;amp;amp;D Conference in Chicago.',
-          description: "",
-          section: "News",},{id: "news-our-naps-2025-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-published-on-ieee-xplore",
-          title: 'Our NAPS 2025 paper, “A Data Mining Approach for Load Composition Analysis in...',
           description: "",
           section: "News",},{
         id: 'social-email',
