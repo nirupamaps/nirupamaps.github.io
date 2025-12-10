@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Nirupama's Calendar
+title: calendar
 permalink: /calendar/
 nav: true
 ---
 
-<h2>A list of academic and a few personal events you might be able to find me at.
-Includes some races I might be participating in!</h2>
+<h2>
+  A list of academic and a few personal events you might be able to find me at.<br>
+  Includes some races I might be participating in! <br>
+</h2>
 
 <iframe 
 src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FPhoenix&showPrint=0&src=Y183Njk0OTE3M2Q5MGIzMTAwMTJjM2FjNGIyMzFiZGEwNmYyOGQ3ODIxMmQ2NDEzZDk1M2Q4MzgxMmRjZjhmNTI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23ad1457" 
