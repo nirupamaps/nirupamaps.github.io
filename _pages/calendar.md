@@ -6,7 +6,7 @@ nav: true
 ---
 
 <h2>
-  A list of academic and a few personal events you might be able to find me at.<br> <br>
+  A list of a few events I plan to attend.<br> <br>
 </h2>
 
 <h3>
