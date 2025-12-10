@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.4.0",
-    "prettier": "^3.1.1"
+    "prettier": "^3.7.4"
   },
   "name": "nirupamaps.github.io",
   "version": "1.0.0",
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/nirupamaps/nirupamaps.github.io/issues"
   },
-  "homepage": "https://github.com/nirupamaps/nirupamaps.github.io#readme"
+  "homepage": "https://github.com/nirupamaps/nirupamaps.github.io#readme",
+  "dependencies": {
+    "html-styles": "^1.0.0",
+    "isarray": "^1.0.0",
+    "isobject": "^2.1.0",
+    "line-column": "^1.0.2",
+    "ohm-js": "^16.6.0"
+  }
 }
