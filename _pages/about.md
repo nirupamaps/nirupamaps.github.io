@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Nirupama</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -20,14 +20,20 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
 ## About
 
-Electrical Engineering PhD student at Arizona State University working with [Prof. Mojdeh Khorsand](https://labs.engineering.asu.edu/khorsand/).
+Hi!
+
+I am an Electrical Engineering PhD student at Arizona State University working with [Prof. Mojdeh Khorsand](https://labs.engineering.asu.edu/khorsand/) where I am working on load monitoring, intelligence, and forecasting as a gateway towards intelligent energy systems and effective demand response.
+
+Previously, I completed my M.S. at Arizona State University under [Prof. Mojdeh Khorsand](https://labs.engineering.asu.edu/khorsand/) where I worked on a bidding generation tool for DER aggregators with PV and energy stoprage resources participating in the wholesale energy and ancillary service market. This was a [PSERC] (https://pserc.wisc.edu/) project in collaboration with the amazing folks from [EPRI] (https://www.epri.com/).
+
+I completed my Bachelor of Technology from P.E.S University, Bangalore, India, in 2022.
 
 <hr />
 
