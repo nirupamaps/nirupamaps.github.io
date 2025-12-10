@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
+nav: true
 ---
 
 <h1>Publications</h1>
