@@ -2,6 +2,7 @@
 layout: page
 title: calendar
 permalink: /calendar/
+nav: true
 ---
 
 <h1>Calendar</h1>
