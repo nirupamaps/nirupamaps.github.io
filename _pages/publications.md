@@ -8,10 +8,10 @@ title: publications
 
 <h2>2025</h2>
 <ul>
-  <li><strong>Awesome Paper Title</strong><br>
-  N. Lastname, Coauthor, etc.<br>
-  <em>Conference/Journal Name</em>, 2025.<br>
-  <a href="link-to-paper.pdf" target="_blank">PDF</a> | <a href="doi-URL" target="_blank">DOI</a>
+  <li><strong>A Data Mining Approach for Load Composition Analysis in Residential Units</strong><br>
+  Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand<br>
+  <em>2025 57th North American Power Symposium (NAPS)<br>
+  <a href="https://ieeexplore.ieee.org/document/11272295/" target="_blank">PDF</a> | <a href="10.1109/NAPS66256.2025.11272295" target="_blank">DOI</a>
   </li>
 </ul>
 
