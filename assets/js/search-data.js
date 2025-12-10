@@ -44,12 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-accepted-at-north-american-power-symposium-2025",
+        },{id: "news-our-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-accepted-at-north-american-power-symposium-2025",
           title: 'Our paper, “A Data Mining Approach for Load Composition Analysis in Residential Units”...',
           description: "",
           section: "News",},{id: "news-our-paper-a-day-ahead-bidding-framework-for-renewable-fed-distributed-energy-resource-aggregators-has-been-accepted-for-presentation-the-2026-transmission-amp-amp-distribution-conference-amp-amp-exposition-4-7-may-2026-chicago-il-usa",
