@@ -146,6 +146,9 @@ collections:
     output: true
   projects:
     output: true
+  publications:
+    output: true
+    permalink: /publications/:year/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
