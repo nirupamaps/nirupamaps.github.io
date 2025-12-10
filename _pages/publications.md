@@ -17,11 +17,20 @@ nav: true
 </ul>
 
 <h2>2024</h2>
+
 <ul>
-  <li><strong>Another Cool Paper</strong><br>
-  N. Lastname, Smart Person, etc.<br>
-  <em>Venue</em>, 2024.<br>
-  <a href="#">PDF</a>
+  <li><strong>Bidding Generation Tool</strong><br>
+  Sara Ostovar, Nirupama Pudukkarai Srinivas, Mojdeh Khorsand<br>
+  <em> Power Systems Engineering Research Center</em>, 2024.<br>
+  <a href="https://documents.pserc.wisc.edu/documents/publications/reports/2024_reports/M_45G_Final_Report.pdf">PDF</a>
+  </li>
+</ul>
+
+<ul>
+  <li><strong>A Day-Ahead Bidding Strategy Algorithm for Distributed Energy Resource Aggregators</strong><br>
+  Nirupama Pudukkarai Srinivas<br>
+  <em> Arizona State University ProQuest Dissertations & Theses</em>, 2024.<br>
+  <a href="https://www.proquest.com/openview/3a73b4682de1b70474c29a281fac8548/1.pdf?pq-origsite=gscholar&cbl=18750&diss=y">PDF</a>
   </li>
 </ul>
 
