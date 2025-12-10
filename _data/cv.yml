@@ -11,17 +11,17 @@
 - title: Education
   type: time_table
   contents:
-    - title: Doctor of Philosophy in Electrical Engineering
+    - title: Doctor of Philosophy, Electrical Engineering
       institution: Arizona State University, Tempe, AZ, USA
       year: 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Area - Load Monitoring and Intelligence as a gateway to intelligent energy systems and demand response
+        - Working on short-term appliance-wise residential load forecasting using historical data.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
+    - title: Master of Science, Electrical Engineering
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
       description:
