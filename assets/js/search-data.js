@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-calendar",
-          title: "calendar",
+  },{id: "nav-nirupama-39-s-calendar",
+          title: "Nirupama&#39;s Calendar",
           description: "",
           section: "Navigation",
           handler: () => {
