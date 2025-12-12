@@ -26,7 +26,7 @@
     {
       "name": "Black & Veatch",
       "position": "Electrical Engineering Intern",
-      "url": "https://www.bv.com/en-US",
+      "url": "https://asu.edu",
       "startDate": "2023-05-15",
       "endDate": "2023-08-01",
       "summary": "Contributed to the activities of the Power Systems team at Black and Veatch.",
@@ -38,24 +38,11 @@
       "organization": "IEEE PES Arizona State University Student Chapter",
       "location": "Tempe, Arizona",
       "position": "Chair",
-      "url": "https://www.linkedin.com/company/ieee-power-and-energy-society-asu-student-chapter/",
+      "url": "https://example.com",
       "startDate": "2023-08-15",
       "endDate": "2026-08-15",
-      "summary": "Chair of the IEEE PES ASU Student Chapter.",
-      "highlights,": [
-        "Awarded the High Performing Student Branch Chapter for 2023 and 2024",
-        "Won the MDI Initiative Challenge at IEEE PESGM 2024 and received a $2500 funding award for the MDI Event.",
-        "Won $500 in funding for the IEEE PES ECE Week event in December 2025"
-      ]
-    },
-    {
-      "organization": "IEEE PES Arizona State University Student Chapter",
-      "location": "Tempe, Arizona",
-      "position": "Secretary",
-      "url": "https://www.linkedin.com/company/ieee-power-and-energy-society-asu-student-chapter/",
-      "startDate": "2022-08-15",
-      "endDate": "2023-08-15",
-      "summary": "Secretary of the IEEE PES ASU Student Chapter."
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
@@ -105,9 +92,9 @@
   "certificates": [
     {
       "name": "OSHA 30 Hour",
-      "date": "2023-07-20",
-      "issuer": "Occupational Safety and Health Administration",
-      "url": "https://www.osha.gov/training/outreach",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
     }
   ],
@@ -117,8 +104,7 @@
       "publisher": "IEEE",
       "releaseDate": "2025-12-10",
       "url": "https://ieeexplore.ieee.org/document/11272295",
-      "authors": "Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand",
-      "summary": "This paper presents a method to predict the presence of appliances in residential units using publicly available data, enabling utilities to better estimate load composition and plan Demand Response programs. It employs a regression-based neural network with feature ranking and filtering to optimize prediction accuracy for each appliance."
+      "summary": "Authors: Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand \nThis paper reviews the evolution of microgrids, their control strategies, and protection schemes, emphasizing challenges in adapting conventional methods. It also covers optimization algorithms, relay coordination, and key international standards for microgrid operation."
     },
     {
       "name": "A Comprehensive Review of Microgrids, Control Strategies, and Microgrid Protection Schemes",
@@ -126,7 +112,7 @@
       "releaseDate": "2022-10-03",
       "url": "https://iopscience.iop.org/article/10.1149/10701.13345ecst",
       "authors": "Nirupama Pudukkarai Srinivas, Sangeeta Modi",
-      "summary": "This paper reviews the evolution of microgrids, their control strategies, and protection schemes, emphasizing challenges in adapting conventional methods. It also covers optimization algorithms, relay coordination, and key international standards for microgrid operation."
+      "summary": "Authors: Nirupama Pudukkarai Srinivas, Sangeeta Modi \nThis paper reviews the evolution of microgrids, their control strategies, and protection schemes, emphasizing challenges in adapting conventional methods. It also covers optimization algorithms, relay coordination, and key international standards for microgrid operation."
     },
     {
       "name": "Pole-to-Pole Fault Detection Algorithm Using Energy Slope for Microgrids",
