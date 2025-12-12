@@ -51,12 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/more/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-have-passed-my-qualifying-exam-i-am-now-a-ph-d-student-check-out-my-thesis-in-the-publications-section",
+        },{id: "news-i-have-passed-my-qualifying-exam-i-am-now-a-ph-d-student-check-out-my-thesis-in-the-publications-section",
           title: 'I have passed my qualifying exam. I am now a Ph.D. student. Check...',
           description: "",
           section: "News",},{id: "news-happy-to-have-presented-my-poster-at-the-2024-pes-general-meeting-in-seattle-washington-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur-highlights-from-the-presentation-key-insight-1-brief-description-key-insight-2-brief-description-key-insight-3-brief-description-you-can-also-include-images-charts-or-pdf-links-view-pdf-of-poster-reflection-takeaways-this-conference-provided-great-exposure-to-the-latest-research-in-power-and-energy-systems-allowing-me-to-connect-with-peers-and-industry-leaders-gather-feedback-and-refine-future-work-directions",
