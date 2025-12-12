@@ -4,26 +4,16 @@ title: publications
 permalink: /publications/
 nav: true
 nav_order: 4
-display_categories: [years]
 horizontal: false
+display_categories: [years]
 ---
-
-## Publications
-
-<div style="margin-bottom: 15px;">
-  <input type="text" id="searchInput" placeholder="Search..." style="padding: 6px; width: 200px;">
-</div>
-
-<div id="pubList">
-  {% bibliography --group_by year --sort_by year --order descending %}
-</div>
 
 <div class="publications-page">
 
   <!-- Sidebar for years -->
   <div class="sidebar">
-    {% assign years = site.bibliography | map: "year" | uniq | sort: "reverse" %}
     <ul>
+      {% assign years = site.bibliography | map: "year" | uniq | sort: "reverse" %}
       {% for year in years %}
         <li><a href="#year-{{ year }}">{{ year }}</a></li>
       {% endfor %}
@@ -32,48 +22,36 @@ horizontal: false
 
   <!-- Main publications list -->
   <div class="pub-list">
+    <div style="margin-bottom: 15px;">
+      <input type="text" id="searchInput" placeholder="Search..." style="padding: 6px; width: 200px;">
+    </div>
+
     {% for year in years %}
       <h3 id="year-{{ year }}" class="bibliography-group">{{ year }}</h3>
       <div class="year-entries">
-        {% bibliography --group_by year --sort_by year --order descending %}
+        {% bibliography --sort_by year --order descending %}
       </div>
     {% endfor %}
+
   </div>
 
 </div>
 
 <script>
-// Collapsible year sections
+// Collapsible years
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("h3.bibliography-group").forEach(h => {
     const next = h.nextElementSibling;
-    next.style.display = "none";   // collapsed by default
+    next.style.display = "none"; // collapsed by default
     h.style.cursor = "pointer";
     h.addEventListener("click", () => {
       next.style.display = next.style.display === "none" ? "block" : "none";
     });
   });
-});
 
-// Search + Filter
-document.addEventListener("input", () => {
-  const q = document.getElementById("searchInput").value.toLowerCase();
-  const year = document.getElementById("yearFilter").value;
-
+  // PDF / DOI buttons
   document.querySelectorAll(".bibliography").forEach(entry => {
-    const text = entry.innerText.toLowerCase();
-    const entryYear = entry.dataset.year;
-
-    const matchText = text.includes(q);
-    const matchYear = (year === "all" || entryYear === year);
-
-    entry.style.display = (matchText && matchYear) ? "block" : "none";
-  });
-});
-// Add clickable PDF / DOI buttons
-document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".bibliography").forEach(entry => {
-    const url = entry.dataset.url; // jekyll-scholar sets this if `url` field exists
+    const url = entry.dataset.url;
     if(url){
       const btn = document.createElement("a");
       btn.href = url;
@@ -85,12 +63,29 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.style.textDecoration = "none";
       btn.addEventListener("mouseover", () => { btn.style.textDecoration = "underline"; });
       btn.addEventListener("mouseout", () => { btn.style.textDecoration = "none"; });
-      
-      // append after the title
       const titleEl = entry.querySelector(".title");
       if(titleEl) titleEl.appendChild(btn);
     }
   });
-});
 
+  // Search filter
+  document.getElementById("searchInput").addEventListener("input", () => {
+    const q = document.getElementById("searchInput").value.toLowerCase();
+    document.querySelectorAll(".bibliography").forEach(entry => {
+      const text = entry.innerText.toLowerCase();
+      entry.style.display = text.includes(q) ? "block" : "none";
+    });
+  });
+});
 </script>
+
+<style>
+.publications-page { display: flex; gap: 2rem; }
+.sidebar { flex: 0 0 120px; position: sticky; top: 1rem; }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar li { margin-bottom: 0.5rem; }
+.sidebar a { text-decoration: none; color: #007acc; }
+.sidebar a:hover { text-decoration: underline; }
+.pub-list { flex: 1; }
+.year-entries { margin-bottom: 2rem; }
+</style>
