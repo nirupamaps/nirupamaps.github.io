@@ -44,7 +44,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-i-have-passed-my-qualifying-exam-i-am-now-a-ph-d-student-check-out-my-thesis-in-the-publications-section",
+        },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-i-have-passed-my-qualifying-exam-i-am-now-a-ph-d-student-check-out-my-thesis-in-the-publications-section",
           title: 'I have passed my qualifying exam. I am now a Ph.D. student. Check...',
           description: "",
           section: "News",},{id: "news-our-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-accepted-at-north-american-power-symposium-2025",
