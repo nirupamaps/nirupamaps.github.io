@@ -3,11 +3,12 @@ layout: default
 title: travel
 permalink: /travel/
 nav: true
+nav_order: 5
 ---
 
 <h1>Travel Adventures</h1>
 
-<p>Some highlights from my recent trips:</p>
+<p>Most of my travelling is through conferences or very small breaks.</p>
 
 <h1>Travel Adventures</h1>
 
