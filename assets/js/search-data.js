@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/calendar/";
           },
         },{id: "nav-publications",
-          title: "Publications",
+          title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -61,7 +61,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-a-day-ahead-bidding-framework-for-renewable-fed-distributed-energy-resource-aggregators-has-been-accepted-for-presentation-the-2026-transmission-amp-amp-distribution-conference-amp-amp-exposition-4-7-may-2026-chicago-il-usa",
           title: 'Our paper, “A Day-Ahead Bidding Framework for Renewable-Fed Distributed Energy Resource Aggregators” has...',
           description: "",
-          section: "News",},{id: "news-our-naps-2025-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-published-on-ieee-xplore-check-out-the-publication-in-the-publications-nirupamaps-github-io-publications-section",
+          section: "News",},{id: "news-our-naps-2025-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-published-on-ieee-xplore-check-out-the-publication-in-the-publications-https-nirupamaps-github-io-publications-section",
           title: 'Our NAPS 2025 paper, “A Data Mining Approach for Load Composition Analysis in...',
           description: "",
           section: "News",},{
