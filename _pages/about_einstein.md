@@ -10,4 +10,4 @@ I am the Chair of the IEEE PES ASU Student Chapter, where I plan and facilitate 
 
 I am also the Coordinator for Conferences and Meetings in [IEEE PES ECE] (https://ieee-pes.org/about-pes/diversity-inclusion/) where we strive to make IEEE PES Conferences and Meetings a place for all people.
 
-While I procrastinate, I like to crochet, run, and watch The Office.
+When I procrastinate, I like to crochet, run, and watch The Office.
