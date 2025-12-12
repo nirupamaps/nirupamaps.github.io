@@ -14,7 +14,7 @@ nav: true
 <div class="travel-gallery">
   <div class="gallery-item">
     <img src="/assets/img/1.jpg" alt="Beach sunset">
-    <div class="caption">Sunset at Malibu Beach</div>
+    <div class="caption">Sunset at Beach</div>
   </div>
   <div class="gallery-item">
     <img src="/assets/img/2.jpg" alt="Mountain hike">
