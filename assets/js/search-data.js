@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/calendar/";
           },
-        },{id: "nav-more",
-          title: "more",
-          description: "",
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Work In Progress",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/more/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "You can click on the PDF Download button to Download a one page version of my CV!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-travel",
           title: "travel",
           description: "",
@@ -37,19 +44,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/travel/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Work In Progress",
+        },{id: "nav-more",
+          title: "more",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "You can click on the PDF Download button to Download a one page version of my CV!",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/more/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
