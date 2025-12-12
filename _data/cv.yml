@@ -13,7 +13,7 @@
   contents:
     - title: Doctor of Philosophy, Electrical Engineering
       institution: Arizona State University, Tempe, AZ, USA
-      year: 2024
+      year: 2024 - 2027
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
+    - title: Master of Science, Electrical Engineering
       institution: Arizona State University, Tempe, AZ, USA
-      year: 1900
+      year: 2022 - 2024
       description:
         - Description 1.
         - Description 2.
@@ -31,9 +31,9 @@
 - title: Relevant Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Arizona State University, Tempe, AZ, USA
+      year: 2023 - Present
       description:
         - Description 1.
         - Description 2.
@@ -41,16 +41,16 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Teaching Assistant
+      institution: Arizona State University, Tempe, AZ, USA
+      year: 2023 - 2024
       description:
         - Description 1.
         - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Intern
+      institution: Black & Veatch
+      year: May 2023 - August 2023
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
