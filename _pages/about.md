@@ -56,3 +56,7 @@ I completed my Bachelor of Technology in Electrical and Electronics Engineering 
 - Location: Tempe, AZ 85281
 
 <hr />
+
+## Website Credits
+
+This website was almost completely developed by [Akash Rao](https://akashgrao.github.io/).
