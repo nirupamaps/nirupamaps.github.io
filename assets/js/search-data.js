@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/calendar/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "You can click on the PDF Download button to Download a one page version of my CV!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "Work In Progress",
@@ -29,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "You can click on the PDF Download button to Download a one page version of my CV!",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "nav-travel",
           title: "travel",
