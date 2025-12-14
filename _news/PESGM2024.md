@@ -7,7 +7,7 @@ related_posts: false
 excerpt_separator: "<!--more-->"
 ---
 
-Happy to have presented my poster at the **2024 PES General Meeting** in Seattle, Washington.
+Happy to have presented my poster at the [2024 PES General Meeting](https://pes-gm.org/) in Seattle, Washington.
 
 <!--more-->
 
