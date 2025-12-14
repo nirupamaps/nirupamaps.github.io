@@ -3,6 +3,7 @@ layout: page
 title: calendar
 permalink: /calendar/
 nav: true
+nav_order: 2
 ---
 
 <h2>
