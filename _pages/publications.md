@@ -1,11 +1,8 @@
 ---
 layout: page
-title: publications
+title: Publications
 permalink: /publications/
 nav: true
-nav_order: 4
-horizontal: false
-display_categories: [years]
 ---
 
 <div class="publications-page">
@@ -13,7 +10,7 @@ display_categories: [years]
   <!-- Sidebar for years -->
   <div class="sidebar">
     <ul>
-      {% assign years = site.bibliography | map: "year" | uniq | sort: "reverse" %}
+      {% assign years = site.data.bib | map: "year" | uniq | sort: "reverse" %}
       {% for year in years %}
         <li><a href="#year-{{ year }}">{{ year }}</a></li>
       {% endfor %}
@@ -22,14 +19,12 @@ display_categories: [years]
 
   <!-- Main publications list -->
   <div class="pub-list">
-    <div style="margin-bottom: 15px;">
-      <input type="text" id="searchInput" placeholder="Search..." style="padding: 6px; width: 200px;">
-    </div>
+    <input type="text" id="searchInput" placeholder="Search publications..." style="padding: 6px; width: 100%; max-width: 300px; margin-bottom: 1rem;">
 
     {% for year in years %}
-      <h3 id="year-{{ year }}" class="bibliography-group">{{ year }}</h3>
+      <h3 class="bibliography-group" id="year-{{ year }}">{{ year }}</h3>
       <div class="year-entries">
-        {% bibliography --sort_by year --order descending %}
+        {% bibliography --filter='year={{ year }}' --sort_by author --order ascending %}
       </div>
     {% endfor %}
 
@@ -49,43 +44,38 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // PDF / DOI buttons
+  // Add PDF / DOI buttons
   document.querySelectorAll(".bibliography").forEach(entry => {
-    const url = entry.dataset.url;
-    if(url){
-      const btn = document.createElement("a");
-      btn.href = url;
-      btn.target = "_blank";
-      btn.textContent = "🔗 PDF / DOI";
-      btn.style.marginLeft = "10px";
-      btn.style.fontSize = "0.9em";
-      btn.style.color = "#007acc";
-      btn.style.textDecoration = "none";
-      btn.addEventListener("mouseover", () => { btn.style.textDecoration = "underline"; });
-      btn.addEventListener("mouseout", () => { btn.style.textDecoration = "none"; });
-      const titleEl = entry.querySelector(".title");
-      if(titleEl) titleEl.appendChild(btn);
-    }
+    const links = entry.querySelectorAll("a[href$='.pdf'], a[href*='doi.org']");
+    links.forEach(link => {
+      link.textContent = "🔗 PDF / DOI";
+      link.style.marginLeft = "10px";
+      link.style.fontSize = "0.9em";
+      link.style.color = "#007acc";
+      link.style.textDecoration = "none";
+      link.addEventListener("mouseover", () => { link.style.textDecoration = "underline"; });
+      link.addEventListener("mouseout", () => { link.style.textDecoration = "none"; });
+    });
   });
 
   // Search filter
   document.getElementById("searchInput").addEventListener("input", () => {
     const q = document.getElementById("searchInput").value.toLowerCase();
     document.querySelectorAll(".bibliography").forEach(entry => {
-      const text = entry.innerText.toLowerCase();
-      entry.style.display = text.includes(q) ? "block" : "none";
+      entry.style.display = entry.innerText.toLowerCase().includes(q) ? "block" : "none";
     });
   });
 });
 </script>
 
 <style>
-.publications-page { display: flex; gap: 2rem; }
+.publications-page { display: flex; gap: 2rem; flex-wrap: wrap; }
 .sidebar { flex: 0 0 120px; position: sticky; top: 1rem; }
 .sidebar ul { list-style: none; padding: 0; }
 .sidebar li { margin-bottom: 0.5rem; }
 .sidebar a { text-decoration: none; color: #007acc; }
 .sidebar a:hover { text-decoration: underline; }
-.pub-list { flex: 1; }
+.pub-list { flex: 1; min-width: 300px; }
 .year-entries { margin-bottom: 2rem; }
+.bibliography { margin-bottom: 0.5rem; }
 </style>
