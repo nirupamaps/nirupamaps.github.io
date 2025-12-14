@@ -8,12 +8,6 @@ related_posts: false
 
 Happy to have presented my poster at the **2024 PES General Meeting** in Seattle, Washington.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-<!--more-->
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
 ### Highlights from the presentation
 
 - Key insight 1: Brief description.
