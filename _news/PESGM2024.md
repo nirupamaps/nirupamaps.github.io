@@ -4,17 +4,18 @@ title: "Presented Poster at 2024 PES General Meeting"
 date: 2024-07-28 11:00:00
 inline: true
 related_posts: false
+excerpt_separator: "<!--more-->"
 ---
 
 Happy to have presented my poster at the **2024 PES General Meeting** in Seattle, Washington.
+
+<!--more-->
 
 ### Highlights from the presentation
 
 - Key insight 1: Brief description.
 - Key insight 2: Brief description.
 - Key insight 3: Brief description.
-
-You can also include images, charts, or PDF links:
 
 ![Poster Image](/assets/images/poster_2024_pes.png){: .img-fluid }
 [View PDF of Poster](/assets/pdf/poster_2024_pes.pdf)
