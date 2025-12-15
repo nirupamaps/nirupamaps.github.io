@@ -14,8 +14,8 @@ nav_order: 5
 
 <div class="travel-gallery">
   <div class="gallery-item">
-    <img src="/assets/img/1.jpg" alt="Beach sunset">
-    <div class="caption">Sunset at Beach</div>
+    <img src="/assets/img/conferences_presentations/NAPS2025.jpg" alt="NAPS 2025 Presentation">
+    <div class="caption">NAPS 202 Presentation at Beach</div>
   </div>
   <div class="gallery-item">
     <img src="/assets/img/2.jpg" alt="Mountain hike">
