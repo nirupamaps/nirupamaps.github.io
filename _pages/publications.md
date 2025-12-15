@@ -12,7 +12,7 @@ nav: true
   <div class="pub-header">
     <div class="pub-text">
       <div class="pub-authors">
-        <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.
+        Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand
       </div>
       <div class="pub-title">
         <em>Title of the Paper</em>.
@@ -32,10 +32,13 @@ nav: true
   <div class="pub-header">
     <div class="pub-text">
       <div class="pub-authors">
-        <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.
+        Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand
       </div>
       <div class="pub-title">
         <em>Title of the Paper</em>.
+      </div>
+      <div class="pub-venue">
+        <em>Venue of Publication</em>.
       </div>
     </div>
     <div class="pub-year">2025</div>
@@ -52,7 +55,7 @@ nav: true
   <div class="pub-header">
     <div class="pub-text">
       <div class="pub-authors">
-        <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.
+        Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand
       </div>
       <div class="pub-title">
         <em>Title of the Paper</em>.
@@ -104,6 +107,10 @@ document.getElementById("searchInput").addEventListener("input", () => {
 
 .pub-title {
   margin-top: 0.15rem;
+}
+
+.pub-venue{
+  margin-bottom: 0.4rem;
 }
 
 .pub-links {
