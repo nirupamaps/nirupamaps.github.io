@@ -82,6 +82,12 @@ document.getElementById("searchInput").addEventListener("input", () => {
   margin-bottom: 0.4rem;
 }
 
+.pub-year {
+  font-weight: bold;
+  color: #666;
+  white-space: nowrap;
+}
+
 .pub-links {
   font-size: 0.9em;
 }
