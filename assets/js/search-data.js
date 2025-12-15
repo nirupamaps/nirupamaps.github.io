@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-calendar",
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-calendar",
           title: "calendar",
           description: "",
           section: "Navigation",
@@ -29,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
           },
         },{id: "nav-travel",
           title: "travel",
@@ -69,8 +69,11 @@ ninja.data = [{
           section: "News",},{id: "news-our-naps-2025-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-published-on-ieee-xplore-check-out-the-publication-in-the-publications-section",
           title: 'Our NAPS 2025 paper, “A Data Mining Approach for Load Composition Analysis in...',
           description: "",
-          section: "News",},{id: "news-i-ran-my-first-ever-10k-at-the-phoenix-inaugral-marathon-super-proud-of-myself-and-thanks-to-everybody-who-supported-me-i-will-upload-a-few-pictures-soon",
+          section: "News",},{id: "news-i-ran-my-first-ever-10k-at-the-phoenix-inaugral-marathon-super-proud-of-myself-and-thanks-to-everybody-who-supported-me-i-will-upload-a-few-pictures-soon-i-finished-with-a-chip-time-of-1-31-28-and-a-strava-time-of-1-28-58",
           title: 'I ran my first ever 10k at the Phoenix Inaugral Marathon! Super proud...',
+          description: "",
+          section: "News",},{id: "news-i-completed-the-van-gogh-conqueror-s-challenge-of-56-miles-of-activity",
+          title: 'I completed the Van Gogh Conqueror’s Challenge of 56 miles of activity.',
           description: "",
           section: "News",},{
         id: 'social-email',
