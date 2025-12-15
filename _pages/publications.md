@@ -5,17 +5,18 @@ permalink: /publications/
 nav: true
 ---
 
-<h1>Publications</h1>
-
 <input type="text" id="searchInput" placeholder="Search publications..."
        style="padding:6px;width:100%;max-width:300px;margin-bottom:1.5rem;">
 
 <div id="publications">
 
   <div class="publication">
-    <div class="pub-text">
-      <strong>Author A, Author B</strong> (2025).  
-      <em>Title of the Paper</em>.
+    <div class="pub-header">
+      <div class="pub-text">
+        <strong>Author A, Author B</strong>.  
+        <em>Title of the Paper</em>.
+      </div>
+      <div class="pub-year">2025</div>
     </div>
 
     <div class="pub-links">
@@ -26,14 +27,36 @@ nav: true
 
   </div>
 
-  <div class="publication">
-    <div class="pub-text">
-      <strong>Author C, Author D</strong> (2024).  
-      <em>Another Paper Title</em>.
+    <div class="publication">
+    <div class="pub-header">
+      <div class="pub-text">
+        <strong>Author A, Author B</strong>.
+        <em>Title of the Paper</em>.
+      </div>
+      <div class="pub-year">2025</div>
     </div>
 
     <div class="pub-links">
       <a href="paper.pdf">PDF</a>
+      <span class="sep">|</span>
+      <a href="https://doi.org/xxxx">DOI</a>
+    </div>
+
+  </div>
+
+    <div class="publication">
+    <div class="pub-header">
+      <div class="pub-text">
+        <strong>Author A, Author B</strong>.
+        <em>Title of the Paper</em>.
+      </div>
+      <div class="pub-year">2025</div>
+    </div>
+
+    <div class="pub-links">
+      <a href="paper.pdf">PDF</a>
+      <span class="sep">|</span>
+      <a href="https://doi.org/xxxx">DOI</a>
     </div>
 
   </div>
