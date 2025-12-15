@@ -25,8 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## About
-
 Hello!
 
 I am an Electrical Engineering PhD student at Arizona State University working with [Prof. Mojdeh Khorsand](https://labs.engineering.asu.edu/khorsand/) where I am working on load monitoring, and forecasting as a gateway towards intelligent energy systems and effective demand response.

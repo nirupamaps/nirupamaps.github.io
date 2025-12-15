@@ -13,51 +13,67 @@ nav: true
   <div class="publication">
     <div class="pub-header">
       <div class="pub-text">
-        <strong>Author A, Author B</strong>.  
+        <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.  
+        Title.
         <em>Title of the Paper</em>.
       </div>
       <div class="pub-year">2025</div>
     </div>
 
-    <div class="pub-links">
+  <div class="pub-links">
       <a href="paper.pdf">PDF</a>
       <span class="sep">|</span>
       <a href="https://doi.org/xxxx">DOI</a>
-    </div>
+  </div>
 
   </div>
 
-    <div class="publication">
+  <div class="publication">
     <div class="pub-header">
       <div class="pub-text">
-        <strong>Author A, Author B</strong>.
+        <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.
         <em>Title of the Paper</em>.
       </div>
       <div class="pub-year">2025</div>
     </div>
 
-    <div class="pub-links">
+  <div class="pub-links">
       <a href="paper.pdf">PDF</a>
       <span class="sep">|</span>
       <a href="https://doi.org/xxxx">DOI</a>
-    </div>
+  </div>
 
   </div>
 
-    <div class="publication">
+  <div class="publication">
     <div class="pub-header">
       <div class="pub-text">
-        <strong>Author A, Author B</strong>.
+        <strong>Nirupama Pudukkarai Srinivas, Sangeeta Modi</strong>.
         <em>Title of the Paper</em>.
       </div>
       <div class="pub-year">2025</div>
-    </div>
+  </div>
 
-    <div class="pub-links">
+  <div class="pub-links">
       <a href="paper.pdf">PDF</a>
       <span class="sep">|</span>
       <a href="https://doi.org/xxxx">DOI</a>
-    </div>
+  </div>
+
+  <div class="publication">
+    <div class="pub-header">
+      <div class="pub-text">
+        <strong>Nirupama Pudukkarai Srinivas, Shivam Singh, Manish Gowda, Chinmay Prasanna, Sangeeta Modi</strong>.
+        <em>Title of the Paper</em>.
+      </div>
+      <div class="pub-year">2021</div>
+  </div>
+
+  <div class="pub-links">
+      <a href="paper.pdf">PDF</a>
+      <span class="sep">|</span>
+      <a href="https://doi.org/xxxx">DOI</a>
+  </div>
 
   </div>
 
@@ -78,12 +94,19 @@ document.getElementById("searchInput").addEventListener("input", () => {
   border-bottom: 1px solid #ddd;
 }
 
+.pub-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 1rem;
+}
+
 .pub-text {
   margin-bottom: 0.4rem;
 }
 
 .pub-year {
   font-weight: bold;
+  text-align: right;
   color: #666;
   white-space: nowrap;
 }
