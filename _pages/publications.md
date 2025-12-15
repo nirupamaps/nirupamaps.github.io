@@ -71,8 +71,6 @@ nav: true
   </div>
 </div>
 
-
-
 <script>
 document.getElementById("searchInput").addEventListener("input", () => {
   const q = document.getElementById("searchInput").value.toLowerCase();
