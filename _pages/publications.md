@@ -71,7 +71,7 @@ nav: true
   </div>
 </div>
 
-</div>
+
 
 <script>
 document.getElementById("searchInput").addEventListener("input", () => {
