@@ -8,74 +8,65 @@ nav: true
 <input type="text" id="searchInput" placeholder="Search publications..."
        style="padding:6px;width:100%;max-width:300px;margin-bottom:1.5rem;">
 
-<div id="publications">
-
-  <div class="publication">
-    <div class="pub-header">
-      <div class="pub-text">
-        <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.  
-        Title.
-        <em>Title of the Paper</em>.
-      </div>
-      <div class="pub-year">2025</div>
-    </div>
-
-  <div class="pub-links">
-      <a href="paper.pdf">PDF</a>
-      <span class="sep">|</span>
-      <a href="https://doi.org/xxxx">DOI</a>
-  </div>
-
-  </div>
-
-  <div class="publication">
-    <div class="pub-header">
-      <div class="pub-text">
+<div class="publication">
+  <div class="pub-header">
+    <div class="pub-text">
+      <div class="pub-authors">
         <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.
+      </div>
+      <div class="pub-title">
         <em>Title of the Paper</em>.
       </div>
-      <div class="pub-year">2025</div>
     </div>
+    <div class="pub-year">2025</div>
+  </div>
 
   <div class="pub-links">
-      <a href="paper.pdf">PDF</a>
-      <span class="sep">|</span>
-      <a href="https://doi.org/xxxx">DOI</a>
+    <a href="paper.pdf">PDF</a>
+    <span class="sep">|</span>
+    <a href="https://doi.org/xxxx">DOI</a>
   </div>
+</div>
 
-  </div>
-
-  <div class="publication">
-    <div class="pub-header">
-      <div class="pub-text">
-        <strong>Nirupama Pudukkarai Srinivas, Sangeeta Modi</strong>.
+<div class="publication">
+  <div class="pub-header">
+    <div class="pub-text">
+      <div class="pub-authors">
+        <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.
+      </div>
+      <div class="pub-title">
         <em>Title of the Paper</em>.
       </div>
-      <div class="pub-year">2025</div>
+    </div>
+    <div class="pub-year">2025</div>
   </div>
 
   <div class="pub-links">
-      <a href="paper.pdf">PDF</a>
-      <span class="sep">|</span>
-      <a href="https://doi.org/xxxx">DOI</a>
+    <a href="paper.pdf">PDF</a>
+    <span class="sep">|</span>
+    <a href="https://doi.org/xxxx">DOI</a>
   </div>
+</div>
 
-  <div class="publication">
-    <div class="pub-header">
-      <div class="pub-text">
-        <strong>Nirupama Pudukkarai Srinivas, Shivam Singh, Manish Gowda, Chinmay Prasanna, Sangeeta Modi</strong>.
+<div class="publication">
+  <div class="pub-header">
+    <div class="pub-text">
+      <div class="pub-authors">
+        <strong>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</strong>.
+      </div>
+      <div class="pub-title">
         <em>Title of the Paper</em>.
       </div>
-      <div class="pub-year">2021</div>
+    </div>
+    <div class="pub-year">2025</div>
   </div>
 
   <div class="pub-links">
-      <a href="paper.pdf">PDF</a>
-      <span class="sep">|</span>
-      <a href="https://doi.org/xxxx">DOI</a>
+    <a href="paper.pdf">PDF</a>
+    <span class="sep">|</span>
+    <a href="https://doi.org/xxxx">DOI</a>
   </div>
-
-  </div>
+</div>
 
 </div>
 
@@ -109,6 +100,10 @@ document.getElementById("searchInput").addEventListener("input", () => {
   text-align: right;
   color: #666;
   white-space: nowrap;
+}
+
+.pub-title {
+  margin-top: 0.15rem;
 }
 
 .pub-links {
