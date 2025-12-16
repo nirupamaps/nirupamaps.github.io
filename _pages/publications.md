@@ -5,9 +5,6 @@ permalink: /publications/
 nav: true
 ---
 
-<input type="text" id="searchInput" placeholder="Search publications..."
-       style="padding:6px;width:100%;max-width:300px;margin-bottom:1.5rem;">
-
 <div class="publication">
   <div class="pub-header">
     <div class="pub-text">
@@ -16,6 +13,9 @@ nav: true
       </div>
       <div class="pub-title">
         <em>Title of the Paper</em>.
+      </div>
+      <div class="pub-venue">
+        <em>Venue of Publication</em>.
       </div>
     </div>
     <div class="pub-year">2025</div>
