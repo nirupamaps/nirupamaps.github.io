@@ -5,6 +5,78 @@ permalink: /publications/
 nav: true
 ---
 
+<div style="margin-bottom: 1rem;">
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search publications..."
+    style="padding: 6px; width: 260px; max-width: 100%;"
+  />
+</div>
+
+<!--NAPS 2025-->
+<div class="publication">
+  <div class="pub-header">
+    <div class="pub-text">
+      <div class="pub-title">
+        A Data Mining Approach for Load Composition Analysis in Residential Units
+      </div>
+      <div class="pub-authors">
+        <em>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</em>.
+      </div>
+      <div class="pub-venue">
+        <em>2025 57th North American Power Symposium (NAPS)</em>.
+      </div>
+    </div>
+    <div class="pub-year">2025</div>
+  </div>
+
+  <div class="pub-links">
+    <a href="https://ieeexplore.ieee.org/document/11272295">IEEE</a>
+    <span class="sep">|</span>
+    <a href="https://doi.org/10.1109/NAPS66256.2025.11272295">DOI</a>
+    <span class="sep">|</span>
+    <button class="copy-cite-btn"
+        onclick="copyCitation(this)"
+        data-citation="N. P. Srinivas, S. Ostovar and M. Khorsand, 'A Data Mining Approach for Load Composition Analysis in Residential Units,' 2025 57th North American Power Symposium (NAPS), Storrs, CT, USA, 2025, pp. 1-6, doi: 10.1109/NAPS66256.2025.11272295.">
+        Copy citation
+    </button>
+  </div>
+</div>
+
+<!-- EPRI Report-->
+<div class="publication">
+  <div class="pub-header">
+    <div class="pub-text">
+      <div class="pub-title">
+        Bidding Generation Tool
+      </div>
+      <div class="pub-authors">
+        <em>Sara Ostovar, Nirupama Pudukkarai Srinivas, Mojdeh Khorsand</em>.
+      </div>
+      <div class="pub-venue">
+        <em>Power Systems Engineering Research Center (PSERC)</em>.
+      </div>
+    </div>
+    <div class="pub-year">2024</div>
+  </div>
+
+  <div class="pub-links">
+    <a href="https://documents.pserc.wisc.edu/documents/publications/reports/2024_reports/M_45G_Final_Report.pdf">Full Report</a>
+    <span class="sep">|</span>
+    <!--
+    <a href="https://doi.org/10.1109/NAPS66256.2025.11272295">DOI</a>
+    <span class="sep">|</span>
+    -->
+    <button class="copy-cite-btn"
+        onclick="copyCitation(this)"
+        data-citation="Sara Ostovar, Nirupama Pudukkarai Srinivas, Mojdeh Khorsand. (December 20245). Bidding Generation Tool. https://documents.pserc.wisc.edu/documents/publications/reports/2024_reports/M_45G_Final_Report.pdf">
+        Copy citation
+    </button>
+  </div>
+</div>
+
+<!--Undergrad Paper-->
 <div class="publication">
   <div class="pub-header">
     <div class="pub-text">
@@ -37,23 +109,29 @@ nav: true
 <div class="publication">
   <div class="pub-header">
     <div class="pub-text">
-      <div class="pub-authors">
-        Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand
-      </div>
       <div class="pub-title">
-        <em>Title of the Paper</em>.
+        A Data Mining Approach for Load Composition Analysis in Residential Units
+      </div>
+      <div class="pub-authors">
+        <em>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</em>.
       </div>
       <div class="pub-venue">
-        <em>Venue of Publication</em>.
+        <em>2025 57th North American Power Symposium (NAPS)</em>.
       </div>
     </div>
     <div class="pub-year">2025</div>
   </div>
 
   <div class="pub-links">
-    <a href="paper.pdf">PDF</a>
+    <a href="https://ieeexplore.ieee.org/document/11272295">IEEE</a>
     <span class="sep">|</span>
-    <a href="https://doi.org/xxxx">DOI</a>
+    <a href="https://doi.org/10.1109/NAPS66256.2025.11272295">DOI</a>
+    <span class="sep">|</span>
+    <button class="copy-cite-btn"
+        onclick="copyCitation(this)"
+        data-citation="N. P. Srinivas, S. Ostovar and M. Khorsand, 'A Data Mining Approach for Load Composition Analysis in Residential Units,' 2025 57th North American Power Symposium (NAPS), Storrs, CT, USA, 2025, pp. 1-6, doi: 10.1109/NAPS66256.2025.11272295.">
+        Copy citation
+    </button>
   </div>
 </div>
 
