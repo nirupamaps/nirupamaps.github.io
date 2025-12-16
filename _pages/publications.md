@@ -25,12 +25,12 @@ nav: true
     <a href="https://ieeexplore.ieee.org/document/11272295">IEEE</a>
     <span class="sep">|</span>
     <a href="https://doi.org/10.1109/NAPS66256.2025.11272295">DOI</a>
+    <span class="sep">|</span>
     <button class="copy-cite-btn"
         onclick="copyCitation(this)"
         data-citation="N. P. Srinivas, S. Ostovar and M. Khorsand, 'A Data Mining Approach for Load Composition Analysis in Residential Units,' 2025 57th North American Power Symposium (NAPS), Storrs, CT, USA, 2025, pp. 1-6, doi: 10.1109/NAPS66256.2025.11272295.">
         Copy citation
     </button>
-
   </div>
 </div>
 
@@ -60,20 +60,29 @@ nav: true
 <div class="publication">
   <div class="pub-header">
     <div class="pub-text">
-      <div class="pub-authors">
-        Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand
-      </div>
       <div class="pub-title">
-        <em>Title of the Paper</em>.
+        Comparative Analysis of Traditional and Soft Computing Techniques of MPPT in PV Applications
+      </div>
+      <div class="pub-authors">
+        <em>Nirupama Srinivas; Shivam Singh; Manish Gowda; Chinmay Prasanna; Sangeeta Modi</em>.
+      </div>
+      <div class="pub-venue">
+        <em>2021 IEEE 4th International Conference on Computing, Power and Communication Technologies (GUCON)</em>.
       </div>
     </div>
-    <div class="pub-year">2025</div>
+    <div class="pub-year">2021</div>
   </div>
 
   <div class="pub-links">
-    <a href="paper.pdf">PDF</a>
+    <a href="https://ieeexplore.ieee.org/document/9573876">IEEE</a>
     <span class="sep">|</span>
-    <a href="https://doi.org/xxxx">DOI</a>
+    <a href="https://doi.org/10.1109/GUCON50781.2021.9573876">DOI</a>
+    <span class="sep">|</span>
+    <button class="copy-cite-btn"
+        onclick="copyCitation(this)"
+        data-citation="N. Srinivas, S. Singh, M. Gowda, C. Prasanna and S. Modi, 'Comparative Analysis of Traditional and Soft Computing Techniques of MPPT in PV Applications,' 2021 IEEE 4th International Conference on Computing, Power and Communication Technologies (GUCON), Kuala Lumpur, Malaysia, 2021, pp. 1-6, doi: 10.1109/GUCON50781.2021.9573876.">
+        Copy citation
+    </button>
   </div>
 </div>
 
@@ -134,13 +143,13 @@ document.getElementById("searchInput").addEventListener("input", () => {
   padding: 4px 8px;
   font-size: 0.85rem;
   border-radius: 4px;
-  border: 1px solid #ccc;
-  background: #f8f8f8;
+  border: 1px solid #161515ff;
+  background: #100c0cff;
   cursor: pointer;
 }
 
 .copy-cite-btn:hover {
-  background: #eaeaea;
+  background: #2e2ee7ff;
 }
 
 .sep {
