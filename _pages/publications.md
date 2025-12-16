@@ -8,23 +8,29 @@ nav: true
 <div class="publication">
   <div class="pub-header">
     <div class="pub-text">
-      <div class="pub-authors">
-        Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand
-      </div>
       <div class="pub-title">
-        <em>Title of the Paper</em>.
+        A Data Mining Approach for Load Composition Analysis in Residential Units
+      </div>
+      <div class="pub-authors">
+        <em>Nirupama Pudukkarai Srinivas, Sara Ostovar, Mojdeh Khorsand</em>.
       </div>
       <div class="pub-venue">
-        <em>Venue of Publication</em>.
+        <em>2025 57th North American Power Symposium (NAPS)</em>.
       </div>
     </div>
     <div class="pub-year">2025</div>
   </div>
 
   <div class="pub-links">
-    <a href="paper.pdf">PDF</a>
+    <a href="https://ieeexplore.ieee.org/document/11272295">IEEE</a>
     <span class="sep">|</span>
-    <a href="https://doi.org/xxxx">DOI</a>
+    <a href="https://doi.org/10.1109/NAPS66256.2025.11272295">DOI</a>
+    <button class="copy-cite-btn"
+        onclick="copyCitation(this)"
+        data-citation="N. P. Srinivas, S. Ostovar and M. Khorsand, 'A Data Mining Approach for Load Composition Analysis in Residential Units,' 2025 57th North American Power Symposium (NAPS), Storrs, CT, USA, 2025, pp. 1-6, doi: 10.1109/NAPS66256.2025.11272295.">
+        Copy citation
+    </button>
+
   </div>
 </div>
 
@@ -122,6 +128,19 @@ document.getElementById("searchInput").addEventListener("input", () => {
 
 .pub-links a:hover {
   text-decoration: underline;
+}
+
+.copy-cite-btn {
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+.copy-cite-btn:hover {
+  background: #eaeaea;
 }
 
 .sep {
