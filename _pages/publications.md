@@ -32,7 +32,7 @@ nav: true
   </div>
 
   <div class="pub-links">
-    <a href="https://ieeexplore.ieee.org/document/11272295">IEEE</a>
+    <a href="https://ieeexplore.ieee.org/document/11272295">Link to Paper</a>
     <span class="sep">|</span>
     <a href="https://doi.org/10.1109/NAPS66256.2025.11272295">DOI</a>
     <span class="sep">|</span>
@@ -62,7 +62,7 @@ nav: true
   </div>
 
   <div class="pub-links">
-    <a href="https://documents.pserc.wisc.edu/documents/publications/reports/2024_reports/M_45G_Final_Report.pdf">Full Report</a>
+    <a href="https://documents.pserc.wisc.edu/documents/publications/reports/2024_reports/M_45G_Final_Report.pdf">Link to Full Report</a>
     <span class="sep">|</span>
     <!--
     <a href="https://doi.org/10.1109/NAPS66256.2025.11272295">DOI</a>
@@ -235,3 +235,16 @@ document.getElementById("searchInput").addEventListener("input", () => {
   color: #888;
 }
 </style>
+
+<script>
+function copyCitation(button) {
+  const citation = button.dataset.citation;
+
+  navigator.clipboard.writeText(citation).then(() => {
+    button.textContent = "Copied!";
+    setTimeout(() => {
+      button.textContent = "Copy citation";
+    }, 1200);
+  });
+}
+</script>
