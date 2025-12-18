@@ -74,6 +74,35 @@ nav: true
   </div>
 </div>
 
+<!-- Masters Thesis-->
+<div class="publication">
+  <div class="pub-header">
+    <div class="pub-text">
+      <div class="pub-title">
+        A Day-Ahead Bidding Strategy Algorithm for Distributed Energy Resource Aggregators
+      </div>
+      <div class="pub-authors">
+        <em>Nirupama Pudukkarai Srinivas</em>.
+      </div>
+      <div class="pub-venue">
+        <em>Arizona State University</em>.
+      </div>
+    </div>
+    <div class="pub-year">2024</div>
+  </div>
+  <div class="pub-links">
+    <a href="https://www.proquest.com/openview/3a73b4682de1b70474c29a281fac8548/1?pq-origsite=gscholar&cbl=18750&diss=y">ProQuest</a>
+    <span class="sep">|</span>
+    <a href="https://hdl.handle.net/2286/R.2.N.195191">Permalink</a>
+    <span class="sep">|</span>
+    <button class="copy-cite-btn"
+        onclick="copyCitation(this)"
+        data-citation="Srinivas, N. P. (2024). A Day-Ahead Bidding Strategy Algorithm for Distributed Energy Resource Aggregators [Master’s thesis, Arizona State University]. https://www.proquest.com/openview/3a73b4682de1b70474c29a281fac8548/1?pq-origsite=gscholar&cbl=18750&diss=y">
+        Copy Citation
+    </button>
+  </div>
+</div>
+
 <!--Undergrad Paper-->
 <div class="publication">
   <div class="pub-header">
