@@ -20,4 +20,4 @@ I am also the Coordinator for Conferences and Meetings in [IEEE PES ECE](https:/
 
 A few "fun" facts, I learnt Indian Classical (Carnatic) Music for about 16 years. I also played competitive table tennis.
 
-When I procrastinate, I like to crochet, run, and watch The Office. 
+When I procrastinate, I like to crochet, run, and watch The Office.
