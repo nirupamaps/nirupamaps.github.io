@@ -54,7 +54,7 @@ ninja.data = [{
         },{id: "news-i-have-passed-my-qualifying-exam-i-am-now-a-ph-d-student-check-out-my-thesis-in-the-publications-section",
           title: 'I have passed my qualifying exam. I am now a Ph.D. student. Check...',
           description: "",
-          section: "News",},{id: "news-happy-to-have-presented-my-poster-at-the-2024-pes-general-meeting-in-seattle-washington-highlights-from-the-presentation-key-insight-1-brief-description-key-insight-2-brief-description-key-insight-3-brief-description-view-pdf-of-poster-reflection-takeaways-this-conference-provided-great-exposure-to-the-latest-research-in-power-and-energy-systems-allowing-me-to-connect-with-peers-and-industry-leaders-gather-feedback-and-refine-future-work-directions",
+          section: "News",},{id: "news-happy-to-have-presented-my-poster-at-the-2024-pes-general-meeting-in-seattle-washington",
           title: 'Happy to have presented my poster at the 2024 PES General Meeting in...',
           description: "",
           section: "News",},{id: "news-our-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-accepted-for-presentation-at-the-57th-north-american-power-symposium-2025-at-hartford-connecticut",
@@ -69,10 +69,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-naps-2025-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-published-on-ieee-xplore-check-out-the-publication-in-the-publications-section",
           title: 'Our NAPS 2025 paper, “A Data Mining Approach for Load Composition Analysis in...',
           description: "",
-          section: "News",},{id: "news-i-ran-my-first-ever-10k-at-the-phoenix-inaugral-marathon-super-proud-of-myself-and-thanks-to-everybody-who-supported-me-i-finished-with-a-chip-time-of-1-31-28-and-a-strava-time-of-1-28-58",
-          title: 'I ran my first ever 10k at the Phoenix Inaugral Marathon! Super proud...',
+          section: "News",},{id: "news-first-ever-10k-phoenix-inaugural-marathon",
+          title: 'First Ever 10K — Phoenix Inaugural Marathon',
           description: "",
-          section: "News",},{id: "news-i-completed-the-van-gogh-conqueror-s-challenge-this-is-a-virtual-challenge-to-complete-56-miles-of-activity-on-foot",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025_PHX_10k/";
+            },},{id: "news-i-completed-the-van-gogh-conqueror-s-challenge-this-is-a-virtual-challenge-to-complete-56-miles-of-activity-on-foot",
           title: 'I completed the Van Gogh Conqueror’s Challenge! This is a virtual challenge to...',
           description: "",
           section: "News",},{
