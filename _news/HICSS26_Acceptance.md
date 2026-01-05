@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, "An Appliance-Agnostic Mode Identification Framework via Dynamic Programming Least Squares and Piecewise Regression for Non-Intrusive Load Monitoring", has been accepted for presentation at the 59th Hawaii International Conference on System Sciences (HICSS).
+Our paper, "An Appliance-Agnostic Mode Identification Framework via Dynamic Programming Least Squares and Piecewise Regression for Non-Intrusive Load Monitoring", has been accepted for presentation at the [59th Hawaii International Conference on System Sciences (HICSS)](https://hicss.hawaii.edu/) and will be presented by my advisor, Dr. Mojdeh Khorsand, at the conference.

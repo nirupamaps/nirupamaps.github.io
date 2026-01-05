@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I completed the Van Gogh Conqueror's Challenge of 56 miles of activity.
+I completed the [Van Gogh Conqueror's Challenge](https://www.theconqueror.events/vangogh/)! This is a virtual challenge to complete 56 miles of activity on foot.
