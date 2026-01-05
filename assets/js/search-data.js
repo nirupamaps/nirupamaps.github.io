@@ -69,12 +69,10 @@ ninja.data = [{
           section: "News",},{id: "news-our-naps-2025-paper-a-data-mining-approach-for-load-composition-analysis-in-residential-units-has-been-published-on-ieee-xplore-check-out-the-publication-in-the-publications-section",
           title: 'Our NAPS 2025 paper, “A Data Mining Approach for Load Composition Analysis in...',
           description: "",
-          section: "News",},{id: "news-first-ever-10k-phoenix-inaugural-marathon",
-          title: 'First Ever 10K — Phoenix Inaugural Marathon',
+          section: "News",},{id: "news-i-ran-my-first-ever-10k-at-the-phoenix-inaugural-marathon-super-proud-of-myself-and-grateful-to-everyone-who-supported-me-race-details-chip-time-1-31-28-strava-time-1-28-58-this-race-capped-months-of-early-morning-treadmill-runs-desert-heat-training-and-learning-how-to-balance-phd-work-with-endurance-goals-crossing-that-finish-line-felt-like-proof-that-consistency-beats-motivation-more-reflections-coming-soon",
+          title: 'I ran my first ever 10k at the Phoenix Inaugural Marathon! Super proud...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025_PHX_10k/";
-            },},{id: "news-i-completed-the-van-gogh-conqueror-s-challenge-this-is-a-virtual-challenge-to-complete-56-miles-of-activity-on-foot",
+          section: "News",},{id: "news-i-completed-the-van-gogh-conqueror-s-challenge-this-is-a-virtual-challenge-to-complete-56-miles-of-activity-on-foot",
           title: 'I completed the Van Gogh Conqueror’s Challenge! This is a virtual challenge to...',
           description: "",
           section: "News",},{
