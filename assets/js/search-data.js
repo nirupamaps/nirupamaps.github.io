@@ -78,6 +78,9 @@ ninja.data = [{
           section: "News",},{id: "news-personal-record-on-the-5k-39-39-around-asu-tempe-s-campus",
           title: 'Personal Record on the 5k! 39:39 around ASU Tempe’s campus.',
           description: "",
+          section: "News",},{id: "news-i-am-running-around-the-chipotle-segment-at-the-2026-burrito-league-absolutely-recommend-did-two-walk-run-half-marathons-and-met-some-absolutely-amazing-folks-i-ve-done-75-km-just-last-week-along-the-same-two-blocks-i-may-be-slowly-losing-my-mind",
+          title: 'I am running around the Chipotle Segment at the 2026 Burrito League. Absolutely...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
