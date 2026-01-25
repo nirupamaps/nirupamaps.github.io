@@ -16,8 +16,6 @@ I completed my Bachelor of Technology in Electrical and Electronics Engineering 
 
 I am the Chair of the IEEE PES ASU Student Chapter, where I plan and facilitate events related to power systems related software tutorials, talks, seminars, and social events. Under my leadership, we have received over $2000 of funding and have been consistently ranked on the High Performing Student Chapter list in our region.
 
-I am also the Coordinator for Conferences and Meetings in [IEEE PES ECE](https://ieee-pes.org/about-pes/diversity-inclusion/) where we strive to make IEEE PES Conferences and Meetings a place for all people.
+I was also the Coordinator for Conferences and Meetings in [IEEE PES ECE](https://ieee-pes.org/about-pes/diversity-inclusion/) where we strive to make IEEE PES Conferences and Meetings a place for all people.
 
-A few "fun" facts, I learnt Indian Classical (Carnatic) Music for about 16 years. I also played competitive table tennis.
-
-When I procrastinate, I like to crochet, run, and watch The Office.
+I like to run, crochet, and watch Reality TV.
