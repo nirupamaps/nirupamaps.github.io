@@ -84,6 +84,9 @@ ninja.data = [{
           section: "News",},{id: "news-finished-the-mesa-10k-wasn-t-feeling-it-but-did-better-than-i-thought-i-would",
           title: 'Finished the Mesa 10k. Wasn’t feeling it but did better than I thought...',
           description: "",
+          section: "News",},{id: "news-finished-the-pat-s-run-4-2-miles-goodbye-party-for-my-nike-vomero-18s",
+          title: 'Finished the Pat’s Run, 4.2 miles! Goodbye party for my Nike Vomero 18s....',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
