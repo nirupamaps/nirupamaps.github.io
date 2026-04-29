@@ -35,6 +35,8 @@ I am excited and passionate about energy, climate tech, energy markets, power sy
 
 I completed my Bachelor of Technology in Electrical and Electronics Engineering from [PES University](https://pes.edu/), Bangalore, India, where I was exposed to power systems and research.
 
+Also, I’m the Lead Public Relations for Akash Rao 😉
+
 <hr />
 
 ## Research Interests

@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.4.0",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.3"
   },
   "name": "nirupamaps.github.io",
   "version": "1.0.0",
