@@ -41,11 +41,12 @@ Also, I’m the Lead Public Relations for Akash Rao 😉
 
 ## Research Interests
 
-- Load forecasting and energy markets
-- Optimization and ML for power systems
-- Demand response and grid flexibility
-- Power system operation and planning
-- Distribution networks and DER integration
+- load forecasting and energy markets
+- optimization and ML for power systems
+-	grid reliability,demand response, and ancillary markets
+- demand response and grid flexibility
+- power system operation and planning
+- distribution networks and DER integration
 
 <hr />
 
