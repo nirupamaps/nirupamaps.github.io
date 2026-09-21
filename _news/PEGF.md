@@ -7,8 +7,6 @@ related_posts: false
 
 I have been selected as a 2026 Principled Engineering Graduate Fellows for the Fulton Schools of Engineering!
 
-What is Principled Innovation?
-
 ASU’s Principled Innovation (PI)®, serving as a basis for the PEGF program, is a framework that brings together four key dimensions of character:
 
 -> Civic – considering partnerships and impacts for your work
