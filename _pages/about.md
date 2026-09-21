@@ -43,7 +43,7 @@ Also, I’m the Lead Public Relations for Akash Rao 😉
 
 - load forecasting and energy markets
 - optimization and ML for power systems
--	grid reliability,demand response, and ancillary markets
+- grid reliability,demand response, and ancillary markets
 - demand response and grid flexibility
 - power system operation and planning
 - distribution networks and DER integration
