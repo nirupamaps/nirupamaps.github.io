@@ -90,7 +90,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-interning-at-the-pjm-interconnection-as-an-advanced-analystics-intern-over-the-summer-in-audubon-pa-pjm-is-the-iso-rto-for-13-states-and-the-district-of-columbia-d-c",
           title: 'I will be interning at the PJM Interconnection as an Advanced Analystics Intern...',
           description: "",
-          section: "News",},{id: "news-i-have-been-selected-as-a-2026-principled-engineering-graduate-fellows-for-the-fulton-schools-of-engineering-asu-s-principled-innovation-pi-serving-as-a-basis-for-the-pegf-program-is-a-framework-that-brings-together-four-key-dimensions-of-character-amp-gt-civic-considering-partnerships-and-impacts-for-your-work-amp-gt-intellectual-thinking-critically-and-reflecting-deeply-amp-gt-moral-making-ethical-and-values-based-decisions-amp-gt-performance-acting-with-purpose-integrity-and-excellence",
+          section: "News",},{id: "news-i-have-been-selected-as-a-2026-principled-engineering-graduate-fellows-for-the-fulton-schools-of-engineering",
           title: 'I have been selected as a 2026 Principled Engineering Graduate Fellows for the...',
           description: "",
           section: "News",},{
