@@ -14,6 +14,36 @@ nav: true
   />
 </div>
 
+<!--HICCSS 2025-->
+<div class="publication">
+  <div class="pub-header">
+    <div class="pub-text">
+      <div class="pub-title">
+          title={An Appliance-Agnostic Mode Identification Framework via Dynamic Programming Least Squares and Piecewise Regression for Non-Intrusive Load Monitoring},
+      </div>
+      <div class="pub-authors">
+        <em>Sara Ostovar, Nirupama Pudukkarai Srinivas, Mojdeh Khorsand</em>.
+      </div>
+      <div class="pub-venue">
+        <em>HICSS 2026</em>.
+      </div>
+    </div>
+    <div class="pub-year">2025</div>
+  </div>
+  <div class="pub-links">
+    <a href="https://ieeexplore.ieee.org/document/11272295">Link to Paper</a>
+    <span class="sep">|</span>
+    <a href="https://doi.org/10.1109/NAPS66256.2025.11272295">DOI</a>
+    <span class="sep">|</span>
+    <button class="copy-cite-btn"
+        onclick="copyCitation(this)"
+        data-citation="N. P. Srinivas, S. Ostovar and M. Khorsand, 'A Data Mining Approach for Load Composition Analysis in Residential Units,' 2025 57th North American Power Symposium (NAPS), Storrs, CT, USA, 2025, pp. 1-6, doi: 10.1109/NAPS66256.2025.11272295.">
+        Copy Citation
+    </button>
+  </div>
+</div>
+
+
 <!--NAPS 2025-->
 <div class="publication">
   <div class="pub-header">
