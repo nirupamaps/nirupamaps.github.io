@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Nirupama Pudukkarai Srinivas
-    #- name: Date of Birth
-    #  value: December 29, 1999
     - name: Languages
       value: English, Tamil, Hindi, Kannada
 
@@ -13,20 +11,12 @@
   contents:
     - title: Doctor of Philosophy, Electrical Engineering
       institution: Arizona State University, Tempe, AZ, USA
-      year: 2024 - 2027
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      year: 2024 - Present
+      #description:
     - title: Master of Science, Electrical Engineering
       institution: Arizona State University, Tempe, AZ, USA
       year: 2022 - 2024
-      description:
-        - Description 1.
-        - Description 2.
+      #description:
 
 - title: Relevant Experience
   type: time_table
@@ -35,18 +25,17 @@
       institution: Arizona State University, Tempe, AZ, USA
       year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Teaching Assistant
+        - Conducted research on optimization-based bidding strategies for distributed energy resource (DER) aggregators in electricity markets. Developed algorithms to optimize bidding strategies for DER aggregators with photovoltaic (PV) and battery storage systems in day-ahead and real-time electricity markets. 
+        - Developed an ML-enhanced residential appliance-level short term load forecasting model using a hybrid approach that combines statistical and machine learning techniques. 
+
+    - title: Head Teaching Assistant (EEE360: Energy Systems and Power Electronics)
       institution: Arizona State University, Tempe, AZ, USA
-      year: 2023 - 2024
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Head TA for EEE360: Energy Systems and Power Electronics course. Responsibilities include managing a team of TAs, coordinating grading and assignments, and assisting the instructor with course logistics.
+        - Faciliated laboratory sessions and provided guidance to students on lab experiments and assignments.
+        - COnducted office hours and taught review sessions to help students prepare for exams and assignments.
+        - Assisted in the development of new lab experiments and assignments to enhance the learning experience for students.
 
     - title: Intern
       institution: Black & Veatch
@@ -56,41 +45,32 @@
       institution: PJM Interconnection
       year: June 2026 - August 2026
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Bidding Strategy Optimization for Electricity Markets
+      institution: Arizona State University, Tempe, AZ, USA
+      year: 2022-now
+      description: A bidding strategy algorithm for DER aggregators in electricity markets. The algorithm uses an optimization-based model to determine the optimal bidding strategy for DER aggregators with PV and battery storage in the day-ahead and real-time electricity markets. The model has been developed to account for price and resource forecast uncertainity. The model has been developed for the New York Independent System Operator (NYISO) electricity market, and can be adapted to other electricity markets. The model has been implemented in Python using CVXPY and Pyomo optimization libraries. The model has been tested using real-world data from the NYISO electricity market, and the results have been published in a peer-reviewed journal and conference paper. 
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Cirrus Women Leaders in STEM, Arizona State University
+    - year: 2026
       items:
-        - Max Planck Medal
+        - Principled Engineering Graduate Fellowship, Arizona State University
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Power Systems Operations and Planning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Optimization.
+        - Data-driven grid analytics.
+    - title: Machine Learning for Energy Systems
       items:
         - Description 1.
         - Description 2.

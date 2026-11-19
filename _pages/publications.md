@@ -43,7 +43,6 @@ nav: true
   </div>
 </div>
 
-
 <!--NAPS 2025-->
 <div class="publication">
   <div class="pub-header">
