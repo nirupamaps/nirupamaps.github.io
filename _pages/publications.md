@@ -19,7 +19,7 @@ nav: true
   <div class="pub-header">
     <div class="pub-text">
       <div class="pub-title">
-          title={An Appliance-Agnostic Mode Identification Framework via Dynamic Programming Least Squares and Piecewise Regression for Non-Intrusive Load Monitoring},
+          An Appliance-Agnostic Mode Identification Framework via Dynamic Programming Least Squares and Piecewise Regression for Non-Intrusive Load Monitoring,
       </div>
       <div class="pub-authors">
         <em>Sara Ostovar, Nirupama Pudukkarai Srinivas, Mojdeh Khorsand</em>.
@@ -28,7 +28,7 @@ nav: true
         <em>HICSS 2026</em>.
       </div>
     </div>
-    <div class="pub-year">2025</div>
+    <div class="pub-year">2026</div>
   </div>
   <div class="pub-links">
     <a href="https://ieeexplore.ieee.org/document/11272295">Link to Paper</a>
